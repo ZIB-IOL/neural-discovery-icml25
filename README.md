@@ -74,7 +74,7 @@ Note that no visualizations will be generated.
 
 ## Important Notes
 
-If you want to run the experiments for different amounts of colors or change any other parameters, you can modify the `.yaml` files accordingly. Please note that a single run will most likely not yield the best results. We obtained out results by running each experiment multiple times and selecting the best runs afterwards.
+If you want to run the experiments for different amounts of colors or change any other parameters, you can modify the `.yaml` files accordingly. Please note that a single run will most likely not yield the best results. We obtained our results by running each experiment multiple times and selecting the best runs afterwards.
 
 ## Contact
 
