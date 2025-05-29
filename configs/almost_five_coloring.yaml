@@ -12,8 +12,8 @@ optimizer:
   weight_decay: 0.0
 
 training:
-  n_steps: 10001
-  batch_size: 4096
+  n_steps: 10000
+  batch_size: 2048
   n_circle_points: 8
   tile_grid: false
   grid_input_scale: 1
@@ -39,8 +39,3 @@ metrics:
   log_metrics_every_k_steps: 2000
 
 
-kill_criterion:
-  metric: null
-  orientation: minimize
-  threshold: 0.1
-  patience: 10000

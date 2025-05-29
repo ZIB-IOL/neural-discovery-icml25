@@ -33,7 +33,7 @@ defaults = dict(
     # Training definition
     training=dict(
         # General
-        n_steps=10001,  # total number of parameter updates
+        n_steps=10000,  # total number of parameter updates
         batch_size=2048,  # Batch size for training
         n_circle_points=8, # number of proximity points to sample for each colour
         tile_grid=False,  # Whether to tile the grid or not (periodic boundary conditions)
