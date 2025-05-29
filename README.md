@@ -4,8 +4,6 @@
 
 This repository contains the official code for the ICML 2025 paper ["Neural Discovery in Mathematics: Do Machines Dream of Colored Planes?"](https://arxiv.org/abs/2501.18527).
 
-Authors: Konrad Mundinger, Max Zimmer, Aldo Kiem, Christoph Spiegel, Sebastian Pokutta
-
 ![Neural Discovery in Mathematics](imgs/neural-discovery.png)
 
 
