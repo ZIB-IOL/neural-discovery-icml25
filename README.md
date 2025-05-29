@@ -1,6 +1,10 @@
 # Neural Discovery
 
+*Authors: [Konrad Mundinger](https://iol.zib.de/team/konrad-mundinger.html), [Max Zimmer](https://maxzimmer.org/), [Aldo Kiem](https://iol.zib.de/team/aldo-kiem.html), [Christoph Spiegel](http://www.christophspiegel.berlin/), [Sebastian Pokutta](http://www.pokutta.com/)*
+
 This repository contains the official code for the ICML 2025 paper ["Neural Discovery in Mathematics: Do Machines Dream of Colored Planes?"](https://arxiv.org/abs/2501.18527).
+
+Authors: Konrad Mundinger, Max Zimmer, Aldo Kiem, Christoph Spiegel, Sebastian Pokutta
 
 ![Neural Discovery in Mathematics](imgs/neural-discovery.png)
 
@@ -60,7 +64,7 @@ For training on a range of distances for the last color, use:
 python main.py --config=configs/polychromatic_number.yaml
 ```
 
-### Hadwiger-Nelson in $\R^3$
+### Hadwiger-Nelson in three dimensions
 
 For coloring $3$-dimensional space, use:
 
