@@ -1,0 +1,45 @@
+# config.yaml
+
+run_id: 1
+
+problem_name: HadwigerNelson
+dim: 3
+n_colours: 15
+
+optimizer:
+  name: AdamW
+  learning_rate: 0.001
+  weight_decay: 0.0
+
+training:
+  n_steps: 10001
+  batch_size: 2048
+  n_circle_points: 8
+  tile_grid: false
+  grid_input_scale: 1
+  loss_fn: prob
+  grid_sizes: [6, 6, 6]
+  p_norm: 2
+  temperature: 5.0
+  good_coloring: false
+
+model:
+  name: ResMLP
+  n_hidden_layers: 4
+  n_hidden_units: 32
+  activation: sin
+  initialization: siren
+  disable_residual_connections: true
+
+metrics:
+  plot_grid_size: 256
+  val_grid_size: 200
+  n_circle_points: 256
+  log_metrics_every_k_steps: 2000
+
+
+kill_criterion:
+  metric: null
+  orientation: minimize
+  threshold: 0.1
+  patience: 10000

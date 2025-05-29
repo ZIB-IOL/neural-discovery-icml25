@@ -1,0 +1,51 @@
+# config.yaml
+
+run_id: 1
+
+problem_name: PolychromaticNumber
+dim: 2
+n_colours: 6
+
+optimizer:
+  name: AdamW
+  learning_rate: 0.001
+  weight_decay: 0.0
+
+training:
+  n_steps: 10001
+  batch_size: 256
+  n_circle_points: 8
+  tile_grid: false
+  grid_input_scale: 1
+  loss_fn: prob
+  grid_sizes: [6, 6]
+  p_norm: 2
+  colour_distances: [1.0, 1.0, 1.0, 1.0, 1.0, [0.3, 0.7]]
+  sample_all_colours: true
+  temperature: 5.0
+  good_coloring: false
+
+model:
+  name: ResMLP
+  n_hidden_layers: 4
+  n_hidden_units: 32
+  activation: sin
+  initialization: siren
+  disable_residual_connections: true
+
+metrics:
+  plot_grid_size: 256
+  val_grid_size: 400
+  n_circle_points: 128
+  log_metrics_every_k_steps: 2000
+  log_imgs_every_k_steps: 100000
+  log_model_every_k_steps: 100000
+  eval_distances: [[1.0, 1.0, 1.0, 1.0, 1.0, 0.4],
+                   [1.0, 1.0, 1.0, 1.0, 1.0, 0.5],
+                   [1.0, 1.0, 1.0, 1.0, 1.0, 0.6]]
+
+kill_criterion:
+  metric: null
+  orientation: minimize
+  threshold: 0.1
+  patience: 10000
