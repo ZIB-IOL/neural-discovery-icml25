@@ -1,4 +1,4 @@
-# Neural Discovery
+# [ICML25] Neural Discovery in Mathematics
 
 *Authors: [Konrad Mundinger](https://iol.zib.de/team/konrad-mundinger.html), [Max Zimmer](https://maxzimmer.org/), [Aldo Kiem](https://iol.zib.de/team/aldo-kiem.html), [Christoph Spiegel](http://www.christophspiegel.berlin/), [Sebastian Pokutta](http://www.pokutta.com/)*
 
