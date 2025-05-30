@@ -76,6 +76,28 @@ Note that no visualizations will be generated.
 
 If you want to run the experiments for different amounts of colors or change any other parameters, you can modify the `.yaml` files accordingly. Please note that a single run will most likely not yield the best results. We obtained our results by running each experiment multiple times and selecting the best runs afterwards.
 
+## Discrete almost-colorings
+
+We provide an almost-coloring of the plane with five colors and an almost-coloring of three-dimensional space with 14 colors, both obtained using Algorithm 1 from our paper. They are available in the `constructions` folder and can be downloaded using `git-lfs`.
+
+### Almost-5 coloring
+
+The files in `constructions/almost-5-coloring-2D` contain a discretized almost-5-coloring.  
+The coloring is periodic on the parallelogram spanned by the vectors **v₁** and **v₂**, given in `parallelogram.csv`.  
+It is constant on small parallelograms, which are spanned by scaled versions of **v₁** and **v₂**.
+
+The file `parallelogram.csv` includes both the original vectors (**v₁**, **v₂**) (columns `x` and `y`) and their scaled versions (**v₁_small**, **v₂_small**), listed under the columns `x_hat` and `y_hat`.
+
+The rows of `grid.csv` specify the corner of a small parallelogram (columns `x` and `y`) and the color assigned to that parallelogram (column `color`).
+
+
+![Neural Discovery in Mathematics](imgs/k5almost_magnified.png)
+
+### Almost-14 coloring
+
+Similarly, the files in `constructions/almost-14-coloring-3D` contain a discretized almost-14-coloring of three-dimensional space.
+
+
 ## Contact
 
 If you have further questions or want to discuss our work, please send an e-mail to mundinger@zib.de or spiegel@zib.de.
