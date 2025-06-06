@@ -1,8 +1,10 @@
 # [ICML25] Neural Discovery in Mathematics
 
+This repository contains the code for the ICML2025 paper ["Neural Discovery in Mathematics: Do Machines Dream of Colored Planes?"](https://arxiv.org/abs/2501.18527).
+
 *Authors: [Konrad Mundinger](https://iol.zib.de/team/konrad-mundinger.html), [Max Zimmer](https://maxzimmer.org/), [Aldo Kiem](https://iol.zib.de/team/aldo-kiem.html), [Christoph Spiegel](http://www.christophspiegel.berlin/), [Sebastian Pokutta](http://www.pokutta.com/)*
 
-This repository contains the official code for the ICML 2025 paper ["Neural Discovery in Mathematics: Do Machines Dream of Colored Planes?"](https://arxiv.org/abs/2501.18527).
+[[`Paper`](https://arxiv.org/abs/2501.18527)] [[`Blogpost`](https://maxzimmer.org/blog/2025/neural-discovery-in-mathematics-do-machines-dream-of-colored-planes/)] [[`BibTeX`](#citing-the-paper)]
 
 ![Neural Discovery in Mathematics](imgs/neural-discovery.png)
 
@@ -102,7 +104,7 @@ Similarly, the files in `constructions/almost-14-coloring-3D` contain a discreti
 
 If you have further questions or want to discuss our work, please send an e-mail to mundinger@zib.de or spiegel@zib.de.
 
-## Citation 
+## Citing the paper
 
 If you find this work helpful, please consider citing our paper:
 
